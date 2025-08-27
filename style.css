@@ -1,0 +1,164 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  
+  font-style: oblique;
+}
+
+header,
+.joshua {
+  display: flex;
+  /* background-color: #1e1e1e; */
+  color: #f5f5f5;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  background-color: #58483b;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-left: 30px;
+}
+
+nav {
+  /* margin-top: 10px; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-right: 20px;
+  padding-top: 10px;
+}
+
+ul {
+  display: flex;
+  padding-right: 10px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+#write {
+  width: 100%;
+  color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-top: 200px;
+  margin-left: 150px;
+  animation-name: slidein;
+  animation-duration: 5s;
+  flex-wrap: wrap;
+}
+
+#welcome {
+  font-size: 1.5em;
+}
+
+#message {
+  font-size: 2rem;
+}
+
+.explorer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #58483b;
+  border-radius: 1px;
+  /* flex-wrap: wrap; */
+}
+img {
+  border-radius: 100%;
+  margin-right: 100px;
+  border-color: #f5f5f5;
+  border: 2px solid white;
+  height: 400px;
+  width: 400px;
+  margin-top: 120px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.button1 {
+  background-color: #f5f5f5;
+  color: Black;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s ease;
+  font-weight: bold;
+  
+  margin-top: 10px;
+  
+}
+
+#second {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.me {
+  margin-left: 530px;
+  text-decoration: underline;
+  color: #58483b;
+}
+
+.about {
+  background-color: white;
+  width: 800px;
+  margin-left: 250px;
+  border-radius: 10px;
+  border-style: groove ;
+  border-color: #58483b;
+  margin-top: 10px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.lap {
+  padding-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: auto;
+        font-size: 500px;
+    }
+
+    75% {
+        margin-left: 50%;
+        width: 150%;
+        font-size: medium;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+        font-size: small;
+    }
+}
+
